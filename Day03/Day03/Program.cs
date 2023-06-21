@@ -44,7 +44,6 @@ namespace Day03
                 else
                     Console.WriteLine("틀렸습니다.");
             }
-            Console.WriteLine(j);
             Console.WriteLine($"{score}승 {cnt - score}패 승률 {(int)((double)score / (float)cnt * 100)}%입니다.");
         }
     }

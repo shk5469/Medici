@@ -1,0 +1,7 @@
+D:\메디치\C#\Day02\Day02\bin\Debug\Day02.exe.config
+D:\메디치\C#\Day02\Day02\bin\Debug\Day02.exe
+D:\메디치\C#\Day02\Day02\bin\Debug\Day02.pdb
+D:\메디치\C#\Day02\Day02\obj\Debug\Day02.csproj.AssemblyReference.cache
+D:\메디치\C#\Day02\Day02\obj\Debug\Day02.csproj.CoreCompileInputs.cache
+D:\메디치\C#\Day02\Day02\obj\Debug\Day02.exe
+D:\메디치\C#\Day02\Day02\obj\Debug\Day02.pdb
