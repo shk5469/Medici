@@ -14,7 +14,7 @@ namespace Day02
             bool start = true;
             int cnt = 0, score = 0;
             string answer;
-            while(start)
+            while (start)
             {
                 Console.Write("게임을 진행하시겠습니까?(예/아니오) :");
                 answer = Console.ReadLine();
@@ -23,15 +23,15 @@ namespace Day02
                     cnt++;
                     score += Start();
                 }
-                else if(answer == "아니오")
+                else if (answer == "아니오")
                 {
-                    Console.WriteLine($"총 점수는 {score}이며 승률은 {(int)((double)score / (double)cnt*100)}%입니다.");
+                    Console.WriteLine($"총 점수는 {score}이며 승률은 {(int)(100.0 * score / cnt)}%입니다.");
                     start = false;
                 }
             }
         }
         static int Start()
-        { 
+        {
             Random rnd = new Random();
             int answer = rnd.Next(1, 51);
             int res;

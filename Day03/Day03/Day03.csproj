@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day03.EqualTest</StartupObject>
+    <StartupObject>Day03.Array3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array1.cs" />
+    <Compile Include="Array2.cs" />
+    <Compile Include="Array3.cs" />
+    <Compile Include="AvgEx1.cs" />
+    <Compile Include="ConditionEx1.cs" />
     <Compile Include="EqualTest.cs" />
+    <Compile Include="ForEx1.cs" />
+    <Compile Include="ForEx2.cs" />
+    <Compile Include="PlusEx1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpDown2.cs" />
+    <Compile Include="UpDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

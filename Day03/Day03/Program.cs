@@ -10,14 +10,14 @@ namespace Day03
     {
         static void Main(string[] args)
         {
-            int answer, cnt, score = 0;
+            int answer, cnt = 0, score = 0;
             string res;
             Random rnd = new Random();
 
-            for (cnt = 0; cnt < 5; cnt++)
+            while (true)
             {
                 answer = rnd.Next(1, 101);
-                Console.Write("홀 or 짝: ");
+                Console.Write("홀 or 짝(종료: 0): ");
                 res = Console.ReadLine();
 
                 #region if문 연습
@@ -25,26 +25,23 @@ namespace Day03
                 #endregion
                 if (!(res == "홀" || res == "짝"))
                 {
+                    if (res == "0")
+                        break;
                     Console.WriteLine("다시 입력하세요.");
-                    cnt--;
                     continue;
                 }
 
-                if (res == "홀" && answer % 2 != 0)
+                cnt++;
+                if ((res == "홀" && answer % 2 != 0) ||
+                    (res == "짝" && answer % 2 == 0))
                 {
                     Console.WriteLine("정답입니다.");
-                    score++;
-                }
-                else if (res == "짝" && answer % 2 == 0)
-                {
-                    Console.WriteLine("정답입니다.");
-                    int j = 0;
                     score++;
                 }
                 else
                     Console.WriteLine("틀렸습니다.");
             }
-            Console.WriteLine($"{score}승 {cnt - score}패 승률 {(int)((double)score / (float)cnt * 100)}%입니다.");
+            Console.WriteLine($"{cnt}전 {score}승 승률 {(int)(100.0 * score / cnt)}%입니다.");
         }
     }
 }
