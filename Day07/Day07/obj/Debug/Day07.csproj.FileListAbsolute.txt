@@ -1,0 +1,10 @@
+C:\Users\medici\source\repos\Day07\Day07\bin\Debug\Day07.exe.config
+C:\Users\medici\source\repos\Day07\Day07\bin\Debug\Day07.exe
+C:\Users\medici\source\repos\Day07\Day07\bin\Debug\Day07.pdb
+C:\Users\medici\source\repos\Day07\Day07\obj\Debug\Day07.csproj.CoreCompileInputs.cache
+C:\Users\medici\source\repos\Day07\Day07\obj\Debug\Day07.exe
+C:\Users\medici\source\repos\Day07\Day07\obj\Debug\Day07.pdb
+C:\Users\medici\source\repos\Day07\Day07\obj\Debug\Day07.csproj.AssemblyReference.cache
+C:\Users\medici\source\repos\Day07\Day07\bin\Debug\Newtonsoft.Json.dll
+C:\Users\medici\source\repos\Day07\Day07\bin\Debug\Newtonsoft.Json.xml
+C:\Users\medici\source\repos\Day07\Day07\obj\Debug\Day07.csproj.CopyComplete

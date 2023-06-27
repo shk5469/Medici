@@ -21,7 +21,8 @@ namespace PhoneBook
                     case 2: manager.ListData(); break;
                     case 3: manager.SearchData(); break;
                     case 4: manager.DeleteData(); break;
-                    case 5: Console.WriteLine("프로그램을 종료합니다."); return;
+                    case 5: manager.SortData(); break;
+                    case 6: Console.WriteLine("프로그램을 종료합니다."); return;
                     default: Console.WriteLine("메뉴선택을 다시 하십시오."); break;
                 }
             }

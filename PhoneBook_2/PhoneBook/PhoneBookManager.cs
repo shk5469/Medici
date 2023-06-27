@@ -15,7 +15,7 @@ namespace PhoneBook
         public void ShowMenu()
         {
             Console.WriteLine("------------------------   전화번호부    --------------------");
-            Console.WriteLine(" 1.입력  |  2.목록  |  3.검색  |  4.삭제  |  5.종료");
+            Console.WriteLine(" 1.입력  |  2.목록  |  3.검색  |  4.삭제  |  5.정렬  |  6.종료");
             Console.WriteLine("------------------------------------------------------------");
             Console.Write("선택 : ");
         }
@@ -27,7 +27,7 @@ namespace PhoneBook
             int choice = int.Parse(Console.ReadLine());
 
             PhoneInfo info = null;
-            switch(choice)
+            switch (choice)
             {
                 case 1: info = CreatePhoneInfo(); break;
                 case 2: info = CreatePhoneUnivInfo(); break;
@@ -155,6 +155,7 @@ namespace PhoneBook
             //        infoStorage[i].ShowPhoneInfo();
             //}
 
+
             for (int i = 0; i < curCnt; i++)
             {
                 infoStorage[i].ShowPhoneInfo();
@@ -199,6 +200,36 @@ namespace PhoneBook
                 }
                 curCnt--;
                 Console.WriteLine("삭제가 완료되었습니다.");
+            }
+        }
+        public void SortData()
+        {
+            Console.WriteLine("1.이름ASC   2.이름DESC   3.전화번호ASC   4.전화번호DESC");
+            Console.Write("선택 >>> ");
+            int choice = int.Parse(Console.ReadLine());
+            PhoneInfo[] arr = new PhoneInfo[curCnt];
+            Array.Copy(infoStorage, arr, curCnt);
+            switch (choice)
+            {
+                case 1:
+                    Array.Sort(arr, new InfoComparator(choice));
+                    break;
+                case 2:
+                    Array.Sort(arr, new InfoComparator(choice-1));
+                    Array.Reverse(arr);
+                    break;
+                case 3:
+                    Array.Sort(arr, new InfoComparator(choice));
+                    break;
+                case 4:
+                    Array.Sort(arr,new InfoComparator(choice-1));
+                    Array.Reverse(arr);
+                    break;
+            }
+            foreach(var e in arr)
+            {
+                e.ShowPhoneInfo();
+                Console.WriteLine();
             }
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PhoneBook
 {
-    class PhoneInfo
+    class PhoneInfo : IComparable
     {
         string name;
         string phoneNumber;
@@ -15,6 +15,10 @@ namespace PhoneBook
         public string Name //읽기전용 속성
         {
             get { return name; }
+        }
+        public string PhoneNumber //읽기전용 속성
+        {
+            get { return phoneNumber; }
         }
 
         public PhoneInfo(string name, string phoneNumber)
@@ -35,6 +39,17 @@ namespace PhoneBook
             Console.Write($"name:{this.name}");
             Console.Write($"\t phone:{this.phoneNumber}");
             Console.Write($"\t birth:{this.birth}");
+        }
+        public int CompareTo(object obj)  //IComparable
+        {
+            //나의 사번과 다른 사번을 비교해서 -1, 0, 1 을 반환
+            if (obj is PhoneInfo other)
+            {
+                return this.name.CompareTo(other.name);
+            }
+            else
+                return 0;
+
         }
     }
 
