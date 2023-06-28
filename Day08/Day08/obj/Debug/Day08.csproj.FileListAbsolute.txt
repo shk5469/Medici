@@ -1,0 +1,13 @@
+C:\Users\medici\source\repos\Day08\Day08\bin\Debug\Day08.exe.config
+C:\Users\medici\source\repos\Day08\Day08\bin\Debug\Day08.exe
+C:\Users\medici\source\repos\Day08\Day08\bin\Debug\Day08.pdb
+C:\Users\medici\source\repos\Day08\Day08\obj\Debug\Day08.csproj.CoreCompileInputs.cache
+C:\Users\medici\source\repos\Day08\Day08\obj\Debug\Day08.exe
+C:\Users\medici\source\repos\Day08\Day08\obj\Debug\Day08.pdb
+D:\메디치\C#\Day08\Day08\bin\Debug\Day08.exe.config
+D:\메디치\C#\Day08\Day08\bin\Debug\Day08.exe
+D:\메디치\C#\Day08\Day08\bin\Debug\Day08.pdb
+D:\메디치\C#\Day08\Day08\obj\Debug\Day08.csproj.AssemblyReference.cache
+D:\메디치\C#\Day08\Day08\obj\Debug\Day08.csproj.CoreCompileInputs.cache
+D:\메디치\C#\Day08\Day08\obj\Debug\Day08.exe
+D:\메디치\C#\Day08\Day08\obj\Debug\Day08.pdb
