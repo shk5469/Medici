@@ -1,0 +1,7 @@
+C:\Users\medici\source\repos\Day09\Day09\bin\Debug\Day09.exe.config
+C:\Users\medici\source\repos\Day09\Day09\bin\Debug\Day09.exe
+C:\Users\medici\source\repos\Day09\Day09\bin\Debug\Day09.pdb
+C:\Users\medici\source\repos\Day09\Day09\obj\Debug\Day09.csproj.AssemblyReference.cache
+C:\Users\medici\source\repos\Day09\Day09\obj\Debug\Day09.csproj.CoreCompileInputs.cache
+C:\Users\medici\source\repos\Day09\Day09\obj\Debug\Day09.exe
+C:\Users\medici\source\repos\Day09\Day09\obj\Debug\Day09.pdb
